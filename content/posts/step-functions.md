@@ -3,7 +3,7 @@ title: Step Functions & AWS Lambda
 date: 2020-03-28
 published: true
 tags: ['StepFunctions','Lambda','Serverless','AWS']
-cover_image: ./images/step-function-tiny.png
+cover_image: ./images/step_functions_gray_tiny.png
 canonical_url: false
 description: "Demonstration and explanation of AWS Step Functions"
 ---
@@ -11,4 +11,3 @@ description: "Demonstration and explanation of AWS Step Functions"
 Demonstration of AWS Step Functions
 
 # Slide Deck
-
