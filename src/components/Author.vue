@@ -12,7 +12,11 @@
 		</div>
 
 		<p class="author__location">
-			Software Engineer in San Francisco
+			Software Engineer in
+		</p>
+
+		<p class="author__location2">
+			San Francisco
 		</p>
 
 		<p class="author__links">
@@ -23,13 +27,17 @@
 			<a href="mailto:m@devm0de.com">Email</a>
 		</p>
 
+		<!-- <p class="author__bio">
+			Hi, I'm Michael.
+		</p> -->
+
 	</div>
 </template>
 
 <static-query>
 query {
   metadata {
-    siteName
+	siteName
   }
 }
 </static-query>
@@ -40,7 +48,8 @@ query {
 	margin: 0 auto;
 	max-width: 500px;
 	text-align: center;
-	padding: calc(var(--space) / 2) 0;
+	padding: calc(var(--space) / 1) 0;
+
 
 	&__image {
 		border-radius: 100%;
@@ -50,10 +59,21 @@ query {
 	}
 
 	&__intro {
-        opacity: .8;
-        font-weight:bold;
-        font-size: 1.5em;
+		text-align: center;
+		opacity: .8;
+		font-weight:bold;
+		font-size: 1.5em;
 	}
+
+	&__location {
+		margin: 0 auto;
+	}
+
+	// &__location2 {
+	// }
+
+	// &__bio {
+	// }
 
 	&__site-title {
 		font-size: 1.5em;
